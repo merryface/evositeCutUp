@@ -1,8 +1,8 @@
-.header_button {
+.header_button, .header_contactUs {
     font-size: 12px;
     text-transform: uppercase;
 
-    padding: 9px 23px;
+    padding: 9px 17px;
     border-radius: 50px;
     
     background-color: var(--buttonPrimary);
@@ -12,4 +12,11 @@
 .menu_burger, .menu_search {
     border: none;
     background: none;
+}
+
+.header_contactUs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
