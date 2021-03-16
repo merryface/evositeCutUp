@@ -59,8 +59,11 @@ p, button, a {
   font-family: "Montserrat", sans-serif; }
 
 :root {
-  --darkGrey: rgb(64, 68, 89);
-  --lightYellow: rgb(242, 190, 160);
-  --lightgrey: rgb(101, 107, 140);
-  --red:  rgb(242, 48, 5);
-  font-size: 10px; }
+  --white: #FFFFFF;
+  --primaryDarker: #0C0228;
+  --buttonPrimary: #2F5C7C;
+  --buttonPrimaryHover: rgba(47, 92, 124, 0.3);
+  --Secondary: #B7BDC1;
+  --ArticleDate: #ACA7B2;
+  font-size: 10px;
+  line-height: 1.5; }
