@@ -29,3 +29,64 @@ Bootstrap is being used by importing it as a link in the header of the [index.ht
 
 Further guidance to install bootstrap directly into the project can be found in the [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/theming/).
 
+---
+
+# Dev Planning
+Preparation work prior to development of the project. This is not documentation as much as it is a way for keeping track of what tasks have been completed. ✅
+
+## Prep
+- Typography
+- Variables
+  - Colours
+  - font-sizes
+  - padding/margin
+
+
+## Atoms
+- header button
+- facebook button
+- twitter button
+- search button
+- Header Nav item
+- Footer Nav item
+- hero down arrow
+- primary button (with hover)
+- secondary button
+- News link
+- Carouselle left & right buttons (with hover)
+- Footer Menu Link
+- Footer Terms
+
+## Molecules
+- Logo
+- Join us -> search button
+- Nav bar
+- Hero text
+- Right side
+- Latest News
+- Article Card
+- Footer upper third
+  - Logo
+- Footer middle third
+  - Address
+  - Contact details
+  - Nav menu
+- Footer lower third
+  - Copyright and company registration
+  - Legal links
+  - Design attribution
+
+## Organisms
+- Header
+- Hero
+- Featured Article
+- Latest News
+- Footer
+---
+### Useful For copy-pasting
+Colours:
+- White: FFFFFF
+- PrimaryDarker: #0C0228
+- ButtonPrimary: #2F5C7C
+- Secondary: #B7BDC1
+- PurplePrimary: #283163
