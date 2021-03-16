@@ -44,6 +44,7 @@ Preparation work prior to development of the project. This is not documentation 
 
 ## Atoms
 - header button
+- mobile menu burger
 - facebook button
 - twitter button
 - search button
@@ -87,6 +88,13 @@ Preparation work prior to development of the project. This is not documentation 
 Colours:
 - White: FFFFFF
 - PrimaryDarker: #0C0228
-- ButtonPrimary: #2F5C7C
+- ButtonPrimary: #2F5C7C -> hover 0.3 opacity
 - Secondary: #B7BDC1
 - PurplePrimary: #283163
+- ArticleDate: #ACA7B2
+
+Typography:
+- Merriweather
+  - Weights: 300, 700
+- Montserrat:
+  - Weights: 300, 400, 600, 700
