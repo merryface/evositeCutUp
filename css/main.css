@@ -70,6 +70,9 @@ p, button, a {
   :root a {
     text-decoration: none; }
 
+.library {
+  background-color: grey; }
+
 .header_button {
   font-size: 12px;
   text-transform: uppercase;
@@ -77,3 +80,7 @@ p, button, a {
   border-radius: 50px;
   background-color: var(--buttonPrimary);
   color: var(--white); }
+
+.menu_burger {
+  border: none;
+  background: none; }
