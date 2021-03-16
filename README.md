@@ -1,5 +1,5 @@
 # Evosite Interview Cut Up
-![GitHub repo size](TODO)
+![GitHub repo size](TODO: ADD URL)
 
 ## What is This Website?<br>
 This website is a template Cut Up created as a demo of my web building skills for an interview with Evosite. 
@@ -19,7 +19,7 @@ The `gulpfile.js` file contains all the methods used in order to:
 The final CSS and JS files which are linked into the final project have the `.min.{fileType}`.
 
 ### Replicating Workspace
-To replicate the workspace, Run `git clone git@github.com:merryface/portfolio.git` followed by `npm install`. This should set up a local workspace.
+To replicate the workspace, Run `TODO: ADD URL` followed by `npm install`. This should set up a local workspace.
 
 ## SCSS Layout
 All SCSS files are stored in the scss file. All styling is done in scss and applied to each page using `style.min.css`.
