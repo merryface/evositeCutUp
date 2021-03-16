@@ -35,15 +35,14 @@ Further guidance to install more bootstrap features directly into the project ca
 Preparation work prior to development of the project. This is not documentation as much as it is a way for keeping track of what tasks have been completed. ✅
 
 ## Prep
-- Typography
-- Variables
+- Typography  ✅
+- Variables  ✅
   - Colours
   - font-sizes
-  - padding/margin
 
 
 ## Atoms
-- header button
+- header button  ✅
 - mobile menu burger
 - facebook button
 - twitter button
