@@ -81,6 +81,6 @@ p, button, a {
   background-color: var(--buttonPrimary);
   color: var(--white); }
 
-.menu_burger {
+.menu_burger, .menu_search {
   border: none;
   background: none; }
