@@ -43,7 +43,7 @@ Preparation work prior to development of the project. This is not documentation 
 
 ## Atoms
 - header button  ✅
-- mobile menu burger
+- mobile menu burger ✅
 - facebook button
 - twitter button
 - search button
