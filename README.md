@@ -24,10 +24,10 @@ To replicate the workspace, Run `TODO: ADD URL` followed by `npm install`. This 
 ## SCSS Layout
 All SCSS files are stored in the scss file. All styling is done in scss and applied to each page using `style.min.css`.
 
-## Bootstrap
-Bootstrap is being used by importing it as a link in the header of the [index.html](index.html) file instead of installing locally. This has been done for ease of use and reducing the project directory size.
+## Bootstrap-grid
+Only [Bootstrap Grid](./css/bootstrap-grid.css) is being used in this project. from bootstrap. The non-minified file was added into the CSS folder since Gulp will minify in any case. 
 
-Further guidance to install bootstrap directly into the project can be found in the [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/theming/).
+Further guidance to install more bootstrap features directly into the project can be found in the [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/).
 
 ---
 
