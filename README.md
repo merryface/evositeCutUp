@@ -47,7 +47,7 @@ Preparation work prior to development of the project. This is not documentation 
 - facebook button ✅
 - twitter button ✅
 - search button ✅
-- Header Nav item
+- Header Nav item ✅
 - Footer Nav item
 - hero down arrow
 - primary button (with hover)
