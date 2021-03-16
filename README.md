@@ -44,10 +44,10 @@ Preparation work prior to development of the project. This is not documentation 
 ## Atoms
 - header button  ✅
 - mobile menu burger ✅
-- facebook button
-- twitter button
-- search button
-- Header Nav item
+- facebook button ✅
+- twitter button ✅
+- search button ✅
+- Header Nav item ✅
 - Footer Nav item
 - hero down arrow
 - primary button (with hover)
