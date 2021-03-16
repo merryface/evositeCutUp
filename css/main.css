@@ -90,3 +90,6 @@ p, button, a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center; }
+
+.header_contactUs-mobile {
+  background-color: var(--buttonPrimary); }
