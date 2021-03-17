@@ -51,8 +51,7 @@ Preparation work prior to development of the project. This is not documentation 
 - Footer Nav item ✅
 - hero down arrow ✅
 - primary button (with hover) ✅
-- secondary button
-- News link
+- secondary button ✅
 - Carouselle left & right buttons (with hover)
 - Footer Menu Link
 - Footer Terms
