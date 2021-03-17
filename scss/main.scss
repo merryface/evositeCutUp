@@ -2,15 +2,13 @@
 @import "typography.scss";
 @import "settings.scss";
 
-
-// Molecules
 @import "header.scss";
 @import "hero.scss";
 @import "footer.scss";
 
-// Reactiveness
 @import "mediaqueries.scss";
 
-// Font awesome
 @import "fontawesome/fontawesome.scss";
 @import "fontawesome/solid.scss";
+
+@import "primaryButton.scss";
