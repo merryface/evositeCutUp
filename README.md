@@ -50,7 +50,7 @@ Preparation work prior to development of the project. This is not documentation 
 - Header Nav item ✅
 - Footer Nav item ✅
 - hero down arrow ✅
-- primary button (with hover)
+- primary button (with hover) ✅
 - secondary button
 - News link
 - Carouselle left & right buttons (with hover)
