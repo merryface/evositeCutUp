@@ -54,9 +54,8 @@ Preparation work prior to development of the project. This is not documentation 
 - secondary button ✅
 - Carouselle left & right buttons (with hover) ✅
 - Footer Terms ✅
-
+- Logo ✅
 ## Molecules
-- Logo
 - Join us -> search button
 - Nav bar
 - Hero text
