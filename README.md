@@ -49,7 +49,6 @@ Preparation work prior to development of the project. This is not documentation 
 - search button ✅
 - Header Nav item ✅
 - Footer Nav item ✅
-- Hero
 - hero down arrow
 - primary button (with hover)
 - secondary button
