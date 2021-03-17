@@ -4696,3 +4696,16 @@ readers do not read off random characters that represent icons */
 .fas {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
+
+.primaryButton {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  padding: 0.9rem 1.7rem;
+  border-radius: 50px;
+  background-color: var(--buttonPrimary);
+  color: var(--white);
+  width: 21.4rem; }
+
+.primaryButton:hover {
+  color: var(--buttonPrimary);
+  background-color: var(--buttonPrimaryHover); }

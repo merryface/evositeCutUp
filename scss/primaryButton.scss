@@ -1,0 +1,17 @@
+.primaryButton {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+
+    padding: 0.9rem 1.7rem;
+    border-radius: 50px;
+    
+    background-color: var(--buttonPrimary);
+    color: var(--white);
+
+    width: 21.4rem;
+}
+
+.primaryButton:hover {
+    color: var(--buttonPrimary);
+    background-color: var(--buttonPrimaryHover);
+}
