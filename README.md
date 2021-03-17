@@ -52,8 +52,7 @@ Preparation work prior to development of the project. This is not documentation 
 - hero down arrow ✅
 - primary button (with hover) ✅
 - secondary button ✅
-- Carouselle left & right buttons (with hover)
-- Footer Menu Link
+- Carouselle left & right buttons (with hover) ✅
 - Footer Terms
 
 ## Molecules
