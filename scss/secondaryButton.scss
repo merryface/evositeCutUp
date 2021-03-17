@@ -1,0 +1,17 @@
+.secondaryButton {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+
+    padding: 0.9rem 1.7rem;
+    border-radius: 50px;
+    
+    background-color: var(--white);
+    color: var(--buttonPrimary);
+
+    width: 21.4rem;
+}
+
+.secondaryButton:hover {
+    color: var(--white);
+    background-color: var(--buttonPrimaryHover);
+}
