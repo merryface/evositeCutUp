@@ -1,5 +1,5 @@
 # Evosite Interview Cut Up
-![GitHub repo size](TODO: ADD URL)
+![GitHub repo size](https://img.shields.io/github/repo-size/merryface/evositeCutUp?logo=GitHub&style=for-the-badge)
 
 ## What is This Website?<br>
 This website is a template Cut Up created as a demo of my web building skills for an interview with Evosite. 
@@ -19,13 +19,13 @@ The `gulpfile.js` file contains all the methods used in order to:
 The final CSS and JS files which are linked into the final project have the `.min.{fileType}`.
 
 ### Replicating Workspace
-To replicate the workspace, Run `TODO: ADD URL` followed by `npm install`. This should set up a local workspace.
+To replicate the workspace, Run `git clone https://github.com/merryface/evositeCutUp.git` followed by `npm install`. This should set up a local workspace.
 
 ## SCSS Layout
 All SCSS files are stored in the scss file. All styling is done in scss and applied to each page using `style.min.css`.
 
-## Bootstrap-grid
-Only [Bootstrap Grid](./css/bootstrap-grid.css) is being used in this project. from bootstrap. The non-minified file was added into the CSS folder since Gulp will minify in any case. 
+## Bootstrap-Grid
+Only the [Bootstrap Grid](./css/bootstrap-grid.css) styling of Bootstrap is being used in this project. from bootstrap. The non-minified file was added into the CSS folder since Gulp will minify the file any case. 
 
 Further guidance to install more bootstrap features directly into the project can be found in the [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/).
 
@@ -49,6 +49,7 @@ Preparation work prior to development of the project. This is not documentation 
 - search button ✅
 - Header Nav item ✅
 - Footer Nav item
+- Hero
 - hero down arrow
 - primary button (with hover)
 - secondary button

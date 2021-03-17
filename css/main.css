@@ -55,7 +55,7 @@ h1 {
 h2 {
   font-size: 2.4rem; }
 
-p, button, a {
+p, button, a, ul, li {
   font-family: "Montserrat", sans-serif; }
 
 :root {
@@ -99,3 +99,6 @@ p, button, a {
 
 .header_link-active, .header_link {
   font-size: 1.6rem; }
+
+.footer_navItem li {
+  color: var(--white); }
