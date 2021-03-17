@@ -4722,3 +4722,20 @@ readers do not read off random characters that represent icons */
 .secondaryButton:hover {
   color: var(--white);
   background-color: var(--buttonPrimaryHover); }
+
+.carouselle_arrowContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--white);
+  color: var(--buttonPrimary);
+  border-radius: 50%;
+  height: 4.6rem;
+  width: 4.6rem; }
+  .carouselle_arrowContainer i {
+    text-align: center;
+    font-size: 1.7rem; }
+
+.carouselle_arrowContainer:hover {
+  opacity: 0.3;
+  cursor: pointer; }
