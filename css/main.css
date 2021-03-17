@@ -4746,17 +4746,3 @@ readers do not read off random characters that represent icons */
 .carouselle_arrowContainer:hover {
   opacity: 0.3;
   cursor: pointer; }
-
-.logo_container {
-  text-transform: uppercase;
-  color: var(--white);
-  display: flex;
-  justify-content: space-around; }
-  .logo_container .logo_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; }
-    .logo_container .logo_text .logo_header {
-      font-size: 2.9rem; }
-    .logo_container .logo_text .logo_subtitle {
-      font-size: 1.4rem; }
