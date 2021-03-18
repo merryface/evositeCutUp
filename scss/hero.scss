@@ -1,0 +1,59 @@
+.headerHero_container {
+      /* The image used */
+      background-image: url("../assets/hero.jpg");
+
+      /* Full height */
+      height: 100vh;
+      width: 100%;
+      box-sizing: border-box;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      position: relative;
+
+      .hero_content {
+            position:absolute;
+            bottom: 3.5rem;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            width: 100%;
+
+            p, h2 {
+                  color: var(--white);
+                  margin-top: 2rem;
+            }
+
+            h2 {
+                  font-size: 1.8rem;
+                  text-transform: uppercase;
+                  font-weight: var(--regular);
+                  font-family: 'Montserrat', sans-serif;
+            }
+
+            p {   
+                  font-size: 4.5rem;
+                  font-weight: 700;
+                  font-family: 'Merriweather', serif;
+            }
+
+            .hero_scroll {
+                  background: none;
+                  border: none;
+                  margin-top: 2rem;
+            }
+
+            .hero_scroll:hover {
+                  cursor: pointer;
+            }
+      }
+}
+
+
+
+
