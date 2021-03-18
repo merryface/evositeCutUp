@@ -14,6 +14,11 @@
     background: none;
 }
 
+.menu_burger:hover {
+    cursor: pointer;
+    opacity: 0.3;
+}
+
 .header_contactUs {
     display: flex;
     flex-direction: row;
