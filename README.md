@@ -58,7 +58,7 @@ Preparation work prior to development of the project. This is not documentation 
 ## Molecules
 - Header Top ✅
 - Nav bar ✅
-- Hero text
+- Hero with text
 - Right side
 - Latest News
 - Article Card
