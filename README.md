@@ -1,7 +1,7 @@
 # Evosite Interview Cut Up
 ![GitHub repo size](https://img.shields.io/github/repo-size/merryface/evositeCutUp?logo=GitHub&style=for-the-badge)
 
-## What is This Website?<br>
+## What is This Website?
 This website is a template Cut Up created as a demo of my web building skills for an interview with Evosite. 
 
 
@@ -58,7 +58,7 @@ Preparation work prior to development of the project. This is not documentation 
 ## Molecules
 - Header Top ✅
 - Nav bar ✅
-- Hero with text
+- Hero with text ✅
 - Right side
 - Latest News
 - Article Card
