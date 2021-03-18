@@ -57,7 +57,7 @@ Preparation work prior to development of the project. This is not documentation 
 - Logo ✅
 ## Molecules
 - Header Top ✅
-- Nav bar
+- Nav bar ✅
 - Hero text
 - Right side
 - Latest News
@@ -74,7 +74,7 @@ Preparation work prior to development of the project. This is not documentation 
   - Design attribution
 
 ## Organisms
-- Header
+- Header ✅
 - Hero
 - Featured Article
 - Latest News

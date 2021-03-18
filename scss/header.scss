@@ -1,3 +1,7 @@
+header {
+    margin-top: 1rem;
+}
+
 .header_button, .header_contactUs {
     font-size: 12px;
     text-transform: uppercase;
@@ -7,6 +11,10 @@
     
     background-color: var(--buttonPrimary);
     color: var(--white);
+}
+
+.menu_search {
+    padding: 0;
 }
 
 .menu_burger, .menu_search {
@@ -49,6 +57,8 @@
 }
 
 .header_nav {
+    margin-top: 2rem;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
