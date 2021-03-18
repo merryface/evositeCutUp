@@ -95,15 +95,6 @@ body {
   align-items: center;
   min-width: 10.2rem; }
 
-.header_link {
-  color: var(--white); }
-
-.header_link-active {
-  color: rgba(0, 0, 0, 0.47); }
-
-.header_link-active, .header_link {
-  font-size: 1.6rem; }
-
 .header_top {
   display: flex;
   flex-direction: row;
@@ -117,6 +108,18 @@ body {
     width: 30%; }
   .header_top .menu_burger {
     display: none; }
+
+.header_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .header_nav .header_link-active, .header_nav .header_link {
+    font-size: 1.6rem; }
+  .header_nav .header_link {
+    color: var(--white); }
+  .header_nav .header_link-active, .header_nav .header_link:hover {
+    color: rgba(0, 0, 0, 0.47); }
 
 .footer_nav .footer_navItem {
   display: flex;
