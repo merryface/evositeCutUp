@@ -76,6 +76,9 @@ body {
   max-width: 136.8rem;
   margin: auto; }
 
+header {
+  margin-top: 1rem; }
+
 .header_button, .header_contactUs {
   font-size: 12px;
   text-transform: uppercase;
@@ -83,6 +86,9 @@ body {
   border-radius: 50px;
   background-color: var(--buttonPrimary);
   color: var(--white); }
+
+.menu_search {
+  padding: 0; }
 
 .menu_burger, .menu_search {
   border: none;
@@ -114,6 +120,7 @@ body {
     display: none; }
 
 .header_nav {
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
