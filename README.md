@@ -24,10 +24,10 @@ To replicate the workspace, Run `git clone https://github.com/merryface/evositeC
 ## SCSS Layout
 All SCSS files are stored in the scss file. All styling is done in scss and applied to each page using `style.min.css`.
 
-## Bootstrap-Grid
-Only the [Bootstrap Grid](./css/bootstrap-grid.css) styling of Bootstrap is being used in this project. from bootstrap. The non-minified file was added into the CSS folder since Gulp will minify the file any case. 
+## Bootstrap
+Bootstrap is used via a CDN via a link in the document head for simplicty of use.
 
-Further guidance to install more bootstrap features directly into the project can be found in the [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/).
+Further guidance to install bootstrap directly into the project can be found in the [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/).
 
 ---
 
