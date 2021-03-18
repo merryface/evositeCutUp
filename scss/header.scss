@@ -19,6 +19,8 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
+    min-width: 10.2rem;
 }
 
 .header_link {
@@ -32,4 +34,25 @@
 .header_link-active, .header_link {
     font-size: 1.6rem;
 }
+
+.header_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .header_ctas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        width: 30%;
+    }
+
+    .menu_burger {
+        display: none;
+    }
+}
+
 

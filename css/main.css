@@ -70,8 +70,11 @@ p, button, a, ul, li {
   :root a {
     text-decoration: none; }
 
-.library {
-  background-color: grey; }
+body {
+  background-color: grey;
+  width: 95%;
+  max-width: 136.8rem;
+  margin: auto; }
 
 .header_button, .header_contactUs {
   font-size: 12px;
@@ -89,7 +92,8 @@ p, button, a, ul, li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  min-width: 10.2rem; }
 
 .header_link {
   color: var(--white); }
@@ -99,6 +103,20 @@ p, button, a, ul, li {
 
 .header_link-active, .header_link {
   font-size: 1.6rem; }
+
+.header_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .header_top .header_ctas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%; }
+  .header_top .menu_burger {
+    display: none; }
 
 .footer_nav .footer_navItem {
   display: flex;
@@ -119,6 +137,30 @@ p, button, a, ul, li {
     color: var(--white);
     text-decoration: none;
     font-size: 1.2rem; }
+
+@media screen and (max-width: 1300px) {
+  .header_top .header_ctas {
+    width: 50%; } }
+
+@media screen and (max-width: 800px) {
+  .header_top {
+    flex-direction: column-reverse; }
+    .header_top .header_logoAndBurger {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 2rem; }
+      .header_top .header_logoAndBurger .menu_burger {
+        display: inline-flex; }
+    .header_top .header_ctas {
+      width: 100%;
+      justify-content: space-between; }
+    .header_top .header_contactIcon {
+      display: inline-flex; }
+    .header_top .header_contactUs {
+      display: none;
+      cursor: pointer; } }
 
 /*!
  * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com
