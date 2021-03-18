@@ -3,12 +3,12 @@
 // smaller monitor
 @media screen and (max-width: 1300px) {
     // HEADER ----
-
     .header_top {
         .header_ctas {
             width: 50%;
         }
     }
+
 }
 // ---------------------
 // ---------------------
@@ -19,7 +19,6 @@
 // mobile
 @media screen and (max-width: 800px) {
     // HEADER ----
-
     .header_top {
         flex-direction: column-reverse;
 
@@ -67,7 +66,24 @@
         }
     }
 
-
-
     // ---------------
+
+    // HERO ----
+    .headerHero_container {
+
+        .hero_content {
+            .hero_title {
+                font-size: 1.4rem;
+            }
+            
+            .hero_subtitle {
+                font-size: 2.4rem;
+                width: 80%;
+            }
+
+            img {
+                margin-top: 1rem;
+            }
+        }
+    }
 }
