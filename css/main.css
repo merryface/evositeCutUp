@@ -80,7 +80,7 @@ html, body {
 
 header {
   padding: 2rem;
-  max-width: 1368px;
+  max-width: 1200px;
   margin: auto; }
 
 .header_button, .header_contactUs {
@@ -119,7 +119,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 30%; }
+    width: 40%; }
   .header_top .menu_burger {
     display: none; }
 
