@@ -113,7 +113,7 @@ header {
   .header_top .header_ctas {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 30%; }
   .header_top .menu_burger {
