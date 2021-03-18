@@ -56,7 +56,7 @@ Preparation work prior to development of the project. This is not documentation 
 - Footer Terms ✅
 - Logo ✅
 ## Molecules
-- Join us -> search button
+- Header Top
 - Nav bar
 - Hero text
 - Right side
