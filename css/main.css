@@ -56,7 +56,8 @@ h2 {
   font-size: 2.4rem; }
 
 p, button, a, ul, li {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  font-weight: var(--regular); }
 
 :root {
   --white: #FFFFFF;
@@ -66,18 +67,21 @@ p, button, a, ul, li {
   --Secondary: #B7BDC1;
   --ArticleDate: #ACA7B2;
   font-size: 10px;
-  line-height: 1.5; }
+  line-height: 1.5;
+  --regular: 300; }
   :root a {
     text-decoration: none; }
 
-body {
-  background-color: grey;
-  width: 95%;
-  max-width: 136.8rem;
+.page_container {
   margin: auto; }
 
+html, body {
+  height: 100%; }
+
 header {
-  margin-top: 1rem; }
+  padding: 2rem;
+  max-width: 1368px;
+  margin: auto; }
 
 .header_button, .header_contactUs {
   font-size: 12px;
@@ -131,6 +135,44 @@ header {
     color: var(--white); }
   .header_nav .header_link-active, .header_nav .header_link:hover {
     color: rgba(0, 0, 0, 0.47); }
+
+.headerHero_container {
+  /* The image used */
+  background-image: url("../assets/hero.jpg");
+  /* Full height */
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  .headerHero_container .hero_content {
+    position: absolute;
+    bottom: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
+    .headerHero_container .hero_content p, .headerHero_container .hero_content h2 {
+      color: var(--white);
+      margin-top: 2rem; }
+    .headerHero_container .hero_content h2 {
+      font-size: 1.8rem;
+      text-transform: uppercase;
+      font-weight: var(--regular);
+      font-family: 'Montserrat', sans-serif; }
+    .headerHero_container .hero_content p {
+      font-size: 4.5rem;
+      font-weight: 700;
+      font-family: 'Merriweather', serif; }
+    .headerHero_container .hero_content .hero_scroll {
+      background: none;
+      border: none;
+      margin-top: 2rem; }
+    .headerHero_container .hero_content .hero_scroll:hover {
+      cursor: pointer; }
 
 .footer_nav .footer_navItem {
   display: flex;
