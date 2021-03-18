@@ -88,21 +88,16 @@ body {
   border: none;
   background: none; }
 
+.menu_burger:hover {
+  cursor: pointer;
+  opacity: 0.3; }
+
 .header_contactUs {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   min-width: 10.2rem; }
-
-.header_link {
-  color: var(--white); }
-
-.header_link-active {
-  color: rgba(0, 0, 0, 0.47); }
-
-.header_link-active, .header_link {
-  font-size: 1.6rem; }
 
 .header_top {
   display: flex;
@@ -117,6 +112,18 @@ body {
     width: 30%; }
   .header_top .menu_burger {
     display: none; }
+
+.header_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .header_nav .header_link-active, .header_nav .header_link {
+    font-size: 1.6rem; }
+  .header_nav .header_link {
+    color: var(--white); }
+  .header_nav .header_link-active, .header_nav .header_link:hover {
+    color: rgba(0, 0, 0, 0.47); }
 
 .footer_nav .footer_navItem {
   display: flex;
@@ -160,7 +167,17 @@ body {
       display: inline-flex; }
     .header_top .header_contactUs {
       display: none;
-      cursor: pointer; } }
+      cursor: pointer; }
+  .header_nav {
+    display: none;
+    flex-direction: column;
+    height: 95%;
+    position: relative;
+    top: 0;
+    padding: 5% 0;
+    background-color: var(--buttonPrimary); }
+    .header_nav .header_link {
+      margin-top: 20rem; } }
 
 /*!
  * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com

@@ -1,16 +1,25 @@
-// HEADER ----
+
 
 // smaller monitor
 @media screen and (max-width: 1300px) {
+    // HEADER ----
+
     .header_top {
         .header_ctas {
             width: 50%;
         }
     }
 }
+// ---------------------
+// ---------------------
 
+
+// ---------------------
+// ---------------------
 // mobile
 @media screen and (max-width: 800px) {
+    // HEADER ----
+
     .header_top {
         flex-direction: column-reverse;
 
@@ -40,4 +49,25 @@
             cursor: pointer;
         }
     }
+
+    .header_nav {
+        display: none; // toggled in the dom flex<--->none
+
+        flex-direction: column;
+        height: 95%;
+        
+        position:relative;
+        top: 0;
+
+        padding: 5% 0;
+        background-color: var(--buttonPrimary);
+
+        .header_link {
+            margin-top: 20rem;
+        }
+    }
+
+
+
+    // ---------------
 }
