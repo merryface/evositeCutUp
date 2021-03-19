@@ -25,7 +25,7 @@ To replicate the workspace, Run `git clone https://github.com/merryface/evositeC
 All SCSS files are stored in the scss file. All styling is done in scss and applied to each page using `style.min.css`.
 
 ## Bootstrap
-Bootstrap is used via a CDN via a link in the document head for simplicty of use.
+Bootstrap is via a CDN link in the document head for simplicty of use.
 
 Further guidance to install bootstrap directly into the project can be found in the [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/).
 

@@ -1,13 +1,15 @@
 .primaryButton {
     font-size: 1.4rem;
     text-transform: uppercase;
-
-    padding: 0.9rem 1.7rem;
-    border-radius: 50px;
+    text-align: center;
     
     background-color: var(--buttonPrimary);
     color: var(--white);
 
+    padding: 0.9rem 1.7rem;
+    display: block;
+
+    border-radius: 50px;
     width: 21.4rem;
 }
 

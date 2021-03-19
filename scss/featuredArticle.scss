@@ -1,0 +1,47 @@
+.featured_article {
+    margin: 3rem;
+    width: 100%;
+
+    .container {
+
+        .featured_image {
+            width: 100%;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .featured_text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+
+            .featured_welcome {
+                text-transform: uppercase;
+                color: var(--Secondary);
+                font-size: 1.9rem;
+            }
+
+            .featured_articleTitle {
+                color: var(--buttonPrimary);
+                font-size: 3.3rem;
+                font-weight: bold;
+                font-family: 'Merriweather', serif;
+            }
+
+            .featured_blurb {
+                color: var(--primaryDarker);
+                font-size: 1.8rem;
+                line-height: 2;
+            }
+
+            .featured_author {
+                font-size: 1.8rem;
+
+                span {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
