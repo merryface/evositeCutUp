@@ -4870,7 +4870,8 @@ readers do not read off random characters that represent icons */
 
 .secondaryButton:hover {
   color: var(--white);
-  background-color: var(--buttonPrimaryHover); }
+  background-color: var(--buttonPrimaryHover);
+  text-decoration: none; }
 
 .carouselle_arrowContainer {
   display: flex;
