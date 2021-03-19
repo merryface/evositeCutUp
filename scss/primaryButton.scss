@@ -1,19 +1,24 @@
 .primaryButton {
+    background-color: var(--buttonPrimary);
+    color: var(--white);
+
     font-size: 1.4rem;
     text-transform: uppercase;
     text-align: center;
     
-    background-color: var(--buttonPrimary);
-    color: var(--white);
 
-    padding: 0.9rem 1.7rem;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
     border-radius: 50px;
     width: 21.4rem;
+    height: 4.6rem;
 }
 
 .primaryButton:hover {
     color: var(--buttonPrimary);
     background-color: var(--buttonPrimaryHover);
+    text-decoration: none;
 }

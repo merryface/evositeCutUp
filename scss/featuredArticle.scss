@@ -1,20 +1,30 @@
 .featured_article {
-    margin: 3rem;
+    margin: 3rem auto;
     width: 100%;
 
-    .container {
+    display: flex;
+    justify-content: center;
 
-        .featured_image {
-            width: 100%;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
+    .container {
+        margin: 0;
+
+        .featured_image {  
+            padding: 0;
+            padding-right: 3rem;
+
+            display: flex;
+            img {
+                display: block;
+                width: 100%;
+                object-fit: contain;
+            }
         }
 
         .featured_text {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            
+            padding: 0;
 
             .featured_welcome {
                 text-transform: uppercase;
@@ -31,7 +41,7 @@
 
             .featured_blurb {
                 color: var(--primaryDarker);
-                font-size: 1.8rem;
+                font-size: 1.7rem;
                 line-height: 2;
             }
 
