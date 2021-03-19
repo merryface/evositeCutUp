@@ -59,7 +59,7 @@ Preparation work prior to development of the project. This is not documentation 
 - Header Top ✅
 - Nav bar ✅
 - Hero with text ✅
-- Right side
+- Right side ✅
 - Latest News
 - Article Card
 - Footer upper third
@@ -75,8 +75,8 @@ Preparation work prior to development of the project. This is not documentation 
 
 ## Organisms
 - Header ✅
-- Hero
-- Featured Article
+- Hero ✅
+- Featured Article ✅
 - Latest News
 - Footer
 ---
