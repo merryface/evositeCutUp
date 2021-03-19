@@ -86,4 +86,36 @@
             }
         }
     }
+
+    // ---------------
+
+    // FEATURED ARTICLE ----
+    .featured_article {
+        margin-top: 2rem !important;
+        .featured_image {
+            padding: 0 !important;
+        }
+
+        .featured_text {
+            .featured_welcome,
+            .featured_articleTitle,
+            .featured_blurb,
+            .featured_author
+            {
+                margin: 1rem 1.8rem !important;
+            }
+
+            .featured_welcome {
+                margin-top: 5rem !important;
+                margin-bottom: 0.5rem !important;
+            }
+
+            .primaryButton {
+                margin: 2rem auto;
+                margin-bottom: 5rem;
+            }
+
+        }
+        
+    }
 }

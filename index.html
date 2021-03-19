@@ -9,6 +9,10 @@
         <link rel="stylesheet" href="./css/main.min.css">
 
         <script defer src="./js/dist/all.min.js"></script>
+
+        <!-- Bootstrap -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
 
     <body>
@@ -58,22 +62,28 @@
                 <div class="hero_content">
                     <h2 class="hero_title">evosite example website</h2>
                     <p class="hero_subtitle">Donec congue metus quis est</p>
-                    <button class="hero_scroll">
+                    <a href="#main" class="hero_scroll">
                         <img src="./assets/ScrollDown.png" alt="down arrow">
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>
         
-        <main class="featured_article">
+        <main id="main" class="featured_article">
             <div class="container">
                 <div class="row">
-                    <div class="col">
-                        <img src="" alt="Arizona Monument Valley rock formation">
+                    <div class="col-12 col-md-6 featured_image">
+                        <img src="./assets/arizonaRock.jpg" alt="Arizona Monument Valley rock formation">
                     </div>
-                    <div class="col"></div>
+                    <div class="col-12 col-md-6 featured_text">
+                        <p class="featured_welcome">welcome to</p>
+                        <h3 class="featured_articleTitle">The example Eviosite website</h3>
+                        <p class="featured_blurb">Donec congue metus quis est commodo, eget condimentum turpis rhoncus. Fusce dictum nibh nec nisi lacinia tincidunt et quis ex. Nunc turpis enim, interdum vitae neque vitae, sollicitudin tempus purus. Praesent sed leo in arcu tincidunt vestibulum.</p>
+                        <p class="featured_author"><span>Joe Bloggs</span> - Managing Director</p>
+
+                        <a class="primaryButton" href="/">read more</a>
+                    </div>
                 </div>
-                
             </div>
         </main>
     </body>
