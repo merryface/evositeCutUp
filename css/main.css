@@ -122,7 +122,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 40%; }
+    width: 40%;
+    max-width: 40rem; }
   .header_top .menu_burger {
     display: none; }
 
@@ -200,7 +201,8 @@ header {
 
 @media screen and (max-width: 1300px) {
   .header_top .header_ctas {
-    width: 50%; } }
+    width: 50%;
+    max-width: 40rem; } }
 
 @media screen and (max-width: 800px) {
   .header_top {
