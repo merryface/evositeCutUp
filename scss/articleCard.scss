@@ -1,0 +1,54 @@
+.articleCard_container {
+    position: absolute;
+    width: 55.7rem;
+
+    .articleCard_image {
+        width: 100%;
+
+        .articleCard_category {
+            position: relative;
+            bottom: 4rem;
+            left: 3rem;
+            display: flex;
+            align-items: center;
+            
+            text-transform: uppercase;
+            font-size: 1.4rem;
+            color: var(--white);
+
+            p {
+                font-weight: 600;
+            }
+
+            .thumbtack {
+                margin-right: 1rem;
+            }
+
+            .purpleRose {
+                width: 100%;
+                display: block;
+                object-fit: cover !important;
+            }
+        }
+    }
+
+    .articleCard_textContent {
+        box-sizing: border-box;
+        padding: 1rem 6rem 5rem 3rem;
+        width: 100%;
+        margin: 0;
+
+        .articleCard_date {
+            color: var(--articleDate);
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            
+        }
+
+        .articleCard_title {
+            margin-top: 1rem;
+            font-size: 1.6rem;
+            width: 100%;
+        }
+    }
+}

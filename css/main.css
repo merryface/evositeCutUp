@@ -55,7 +55,7 @@ h1 {
 h2 {
   font-size: 2.4rem; }
 
-p, button, a, ul, li {
+p, button, a, ul, li, time {
   font-family: "Montserrat", sans-serif;
   font-weight: var(--regular); }
 
@@ -65,7 +65,7 @@ p, button, a, ul, li {
   --buttonPrimary: #2F5C7C;
   --buttonPrimaryHover: rgba(47, 92, 124, 0.3);
   --Secondary: #B7BDC1;
-  --ArticleDate: #ACA7B2;
+  --articleDate: #ACA7B2;
   font-size: 10px;
   line-height: 1.5;
   --regular: 300; }
@@ -4927,3 +4927,39 @@ readers do not read off random characters that represent icons */
         font-size: 1.8rem; }
         .featured_article .container .featured_text .featured_author span {
           font-weight: bold; }
+
+.articleCard_container {
+  position: absolute;
+  width: 55.7rem; }
+  .articleCard_container .articleCard_image {
+    width: 100%; }
+    .articleCard_container .articleCard_image .articleCard_category {
+      position: relative;
+      bottom: 4rem;
+      left: 3rem;
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      color: var(--white); }
+      .articleCard_container .articleCard_image .articleCard_category p {
+        font-weight: 600; }
+      .articleCard_container .articleCard_image .articleCard_category .thumbtack {
+        margin-right: 1rem; }
+      .articleCard_container .articleCard_image .articleCard_category .purpleRose {
+        width: 100%;
+        display: block;
+        object-fit: cover !important; }
+  .articleCard_container .articleCard_textContent {
+    box-sizing: border-box;
+    padding: 1rem 6rem 5rem 3rem;
+    width: 100%;
+    margin: 0; }
+    .articleCard_container .articleCard_textContent .articleCard_date {
+      color: var(--articleDate);
+      text-transform: uppercase;
+      font-size: 1.2rem; }
+    .articleCard_container .articleCard_textContent .articleCard_title {
+      margin-top: 1rem;
+      font-size: 1.6rem;
+      width: 100%; }
