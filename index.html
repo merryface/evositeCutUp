@@ -87,21 +87,40 @@
             </div>
         </main>
 
-        <section>
-            <div>
-                <h2>Latest News</h2>
+        <section class="latestNews_container">
+            <div class="latestNews_top">
+                <h2 class="latestNews_title">Latest News</h2>
 
-                <div id="carouselle_next" class="carouselle_arrowContainer">
-                    <i class="fas fa-arrow-right"></i>
-                </div>
+                <div class="carouselle_arrows">
+                    <div id="carouselle_prev" class="carouselle_arrowContainer">
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
 
-                <div id="carouselle_prev" class="carouselle_arrowContainer">
-                    <i class="fas fa-arrow-left"></i>
+                    <div id="carouselle_next" class="carouselle_arrowContainer">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
                 </div>
             </div>
-            carouselle of article cards
+            
+            <div class="carouselle_container">
+                <section class="articleCard_container">
+                    <div class="articleCard_image">
+                        <img class="purpleRose" src="./assets/purpleRose.jpg" alt="purple rose">
+                        <div class="articleCard_category">
+                            <img class="thumbtack" src="./assets/thumtack.svg" alt="thumbtack icon">
+                            <p>featured news / category</p>
+                        </div>
+                    </div>
 
-            <a class="secondaryButton" href="/">Secondary Button</a>
+                    <div class="articleCard_textContent">
+                        <time date="2020-03" class="articleCard_date"> march 20th 20xx</time>
+                        <h3 class="articleCard_title">This is an example of a really long heading that needs to span over multiple lines.</h3>
+                    </div>
+                    <a class="articleCard_readMore" href="/">read article</a>
+                </section>
+            </div>
+
+            <a class="secondaryButton" href="/">view all news</a>
         </section>
     </body>
 
