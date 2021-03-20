@@ -1,6 +1,7 @@
 .articleCard_container {
     position: absolute;
     width: 55.7rem;
+    box-sizing: border-box;
 
     .articleCard_image {
         width: 100%;
@@ -34,9 +35,10 @@
 
     .articleCard_textContent {
         box-sizing: border-box;
-        padding: 1rem 6rem 5rem 3rem;
+        padding: 1rem 3rem 5rem 3rem;
         width: 100%;
         margin: 0;
+        // position: absolute;
 
         .articleCard_date {
             color: var(--articleDate);
@@ -49,6 +51,30 @@
             margin-top: 1rem;
             font-size: 1.6rem;
             width: 100%;
+            color: var(--articleTitle);
+            font-weight: 700;
         }
+
+    }
+    .articleCard_readMore {
+        text-transform: uppercase;
+        color: var(--buttonPrimary);
+        font-size: 1.2rem;
+        font-weight: 600;
+
+        position: relative;
+        bottom: 2rem;
+        left: 3rem;
+
+        display: none;
+    }
+
+
+}
+
+.articleCard_container:hover {
+
+    .articleCard_readMore {
+        display: block;
     }
 }

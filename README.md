@@ -94,3 +94,7 @@ Typography:
   - Weights: 300, 700
 - Montserrat:
   - Weights: 300, 400, 600, 700
+
+
+### TODO
+- Article card on hover div rises

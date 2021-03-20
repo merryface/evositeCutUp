@@ -66,6 +66,7 @@ p, button, a, ul, li, time {
   --buttonPrimaryHover: rgba(47, 92, 124, 0.3);
   --Secondary: #B7BDC1;
   --articleDate: #ACA7B2;
+  --articleTitle: #39373C;
   font-size: 10px;
   line-height: 1.5;
   --regular: 300; }
@@ -4930,7 +4931,8 @@ readers do not read off random characters that represent icons */
 
 .articleCard_container {
   position: absolute;
-  width: 55.7rem; }
+  width: 55.7rem;
+  box-sizing: border-box; }
   .articleCard_container .articleCard_image {
     width: 100%; }
     .articleCard_container .articleCard_image .articleCard_category {
@@ -4952,7 +4954,7 @@ readers do not read off random characters that represent icons */
         object-fit: cover !important; }
   .articleCard_container .articleCard_textContent {
     box-sizing: border-box;
-    padding: 1rem 6rem 5rem 3rem;
+    padding: 1rem 3rem 5rem 3rem;
     width: 100%;
     margin: 0; }
     .articleCard_container .articleCard_textContent .articleCard_date {
@@ -4962,4 +4964,18 @@ readers do not read off random characters that represent icons */
     .articleCard_container .articleCard_textContent .articleCard_title {
       margin-top: 1rem;
       font-size: 1.6rem;
-      width: 100%; }
+      width: 100%;
+      color: var(--articleTitle);
+      font-weight: 700; }
+  .articleCard_container .articleCard_readMore {
+    text-transform: uppercase;
+    color: var(--buttonPrimary);
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: relative;
+    bottom: 2rem;
+    left: 3rem;
+    display: none; }
+
+.articleCard_container:hover .articleCard_readMore {
+  display: block; }
