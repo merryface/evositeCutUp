@@ -98,3 +98,8 @@ Typography:
 
 ### TODO
 - Article card on hover div rises
+
+
+
+
+carouselle weird behaviour caused by article card styling. sort that out first
