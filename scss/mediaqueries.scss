@@ -10,6 +10,17 @@
         }
     }
 
+    // LATEST NEWS -----
+    .carouselle_arrows-mobile {
+        display: flex;
+    }
+    .carouselle_arrows {
+        display: none !important;
+    }
+
+    .carouselle_container .articleCard_container:nth-child(2) {
+        display: none;
+    }
 }
 // ---------------------
 // ---------------------
@@ -121,11 +132,5 @@
     }
 
 
-    // LATEST NEWS -----
-    .carouselle_arrows-mobile {
-        display: flex;
-    }
-    .carouselle_arrows {
-        display: none !important;
-    }
+
 }
