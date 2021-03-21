@@ -67,14 +67,12 @@ p, button, a, ul, li, time {
   --Secondary: #B7BDC1;
   --articleDate: #ACA7B2;
   --articleTitle: #39373C;
+  --footerGreen: #2E4D63;
   font-size: 10px;
   line-height: 1.5;
   --regular: 300; }
   :root a {
     text-decoration: none; }
-
-.page_container {
-  margin: auto; }
 
 html, body {
   height: 100%;
@@ -180,25 +178,39 @@ header {
     .headerHero_container .hero_content .hero_scroll:hover {
       cursor: pointer; }
 
-.footer_nav .footer_navItem {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  color: var(--white); }
-
-.footer_nav .footer_navItem:hover {
-  opacity: 0.3; }
-
-.footer_nav .fas {
-  padding-right: 0.5rem;
-  color: var(--Secondary); }
-
-.footer_legal {
-  list-style: none; }
-  .footer_legal a li {
+footer {
+  background-color: var(--footerGreen); }
+  footer .footer_upper .footer_logo {
+    height: 4.5rem; }
+  footer .footer_middle .middle_container {
+    font-size: 1.5rem;
+    color: var(--white); }
+    footer .footer_middle .middle_container .footer_middle-directions .fas {
+      margin-right: 1rem; }
+    footer .footer_middle .middle_container .footer_middle-contact a {
+      text-decoration: none;
+      color: var(--white); }
+  footer .footer_lower {
     color: var(--white);
-    text-decoration: none;
     font-size: 1.2rem; }
+  footer .footer_nav .footer_navItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--white); }
+  footer .footer_nav .footer_navItem:hover {
+    opacity: 0.3; }
+  footer .footer_nav .fas {
+    padding-right: 0.5rem;
+    color: var(--Secondary); }
+  footer .footer_legal {
+    list-style: none; }
+    footer .footer_legal a li {
+      color: var(--white);
+      text-decoration: none;
+      font-size: 1.2rem; }
 
 /*!
  * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com
