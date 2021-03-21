@@ -38,6 +38,3 @@
     // };
 
 })(document)
-((d) => {
-    
-})(document)
