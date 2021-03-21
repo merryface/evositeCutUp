@@ -4995,7 +4995,10 @@ readers do not read off random characters that represent icons */
     position: relative;
     bottom: 4rem;
     left: 3rem;
-    display: none; }
+    display: none;
+    width: 20rem;
+    max-width: 20rem;
+    margin: 0; }
 
 .articleCard_container:hover .articleCard_readMore {
   display: block;
