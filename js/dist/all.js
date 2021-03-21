@@ -17,7 +17,6 @@
     let next = () => {
         // save it
         let first = carouselle_container.children[0];
-        let second = carouselle_container.children[1];
     
         // remove from the parent
         carouselle_container.removeChild(first);
@@ -30,9 +29,29 @@
         carouselle_container.children[1].style.display = "block";
     };
 
-    carouselle_next.addEventListener("click", next);
+    let prev = () => {
 
-})(document)
+        // save last
+        let lastIndex = carouselle_container.children.length - 1;
+        let last = carouselle_container.children[lastIndex];
+
+        // remove the last from parent
+        carouselle_container.removeChild(last);
+
+
+        //add last to the beginning
+        carouselle_container.prepend(last);
+
+        hide();
+
+        carouselle_container.children[0].style.display = "block";
+        carouselle_container.children[1].style.display = "block";
+    }
+
+    carouselle_next.addEventListener("click", next);
+    carouselle_prev.addEventListener("click", prev);
+
+})(document);
 ((d) => {
     
 })(document)

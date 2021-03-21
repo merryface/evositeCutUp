@@ -200,63 +200,6 @@ header {
     text-decoration: none;
     font-size: 1.2rem; }
 
-@media screen and (max-width: 1300px) {
-  .header_top .header_ctas {
-    width: 50%;
-    max-width: 40rem; } }
-
-@media screen and (max-width: 800px) {
-  .header_top {
-    flex-direction: column-reverse; }
-    .header_top .header_logoAndBurger {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 100%;
-      margin-top: 2rem; }
-      .header_top .header_logoAndBurger .menu_burger {
-        display: inline-flex; }
-    .header_top .header_ctas {
-      width: 100%;
-      justify-content: space-between; }
-    .header_top .header_contactIcon {
-      display: inline-flex; }
-    .header_top .header_contactUs {
-      display: none;
-      cursor: pointer; }
-  .header_nav {
-    display: none;
-    flex-direction: column;
-    height: 95%;
-    position: relative;
-    top: 0;
-    padding: 5% 0;
-    background-color: var(--buttonPrimary); }
-    .header_nav .header_link {
-      margin-top: 20rem; }
-  .headerHero_container .hero_content .hero_title {
-    font-size: 1.4rem; }
-  .headerHero_container .hero_content .hero_subtitle {
-    font-size: 2.4rem;
-    width: 80%; }
-  .headerHero_container .hero_content img {
-    margin-top: 1rem; }
-  .featured_article {
-    margin-top: 2rem !important; }
-    .featured_article .featured_image {
-      padding: 0 !important; }
-    .featured_article .featured_text .featured_welcome,
-    .featured_article .featured_text .featured_articleTitle,
-    .featured_article .featured_text .featured_blurb,
-    .featured_article .featured_text .featured_author {
-      margin: 1rem 1.8rem !important; }
-    .featured_article .featured_text .featured_welcome {
-      margin-top: 5rem !important;
-      margin-bottom: 0.5rem !important; }
-    .featured_article .featured_text .primaryButton {
-      margin: 2rem auto;
-      margin-bottom: 5rem; } }
-
 /*!
  * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -4901,6 +4844,12 @@ readers do not read off random characters that represent icons */
   opacity: 0.3;
   cursor: pointer; }
 
+.carouselle_arrows-mobile {
+  display: none;
+  margin-top: 2rem; }
+  .carouselle_arrows-mobile #carouselle_prev {
+    margin-right: 2rem; }
+
 .featured_article {
   margin: 3rem auto;
   width: 100%;
@@ -5037,3 +4986,64 @@ readers do not read off random characters that represent icons */
     display: flex;
     align-items: center;
     justify-content: center; }
+
+@media screen and (max-width: 1300px) {
+  .header_top .header_ctas {
+    width: 50%;
+    max-width: 40rem; } }
+
+@media screen and (max-width: 800px) {
+  .header_top {
+    flex-direction: column-reverse; }
+    .header_top .header_logoAndBurger {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 2rem; }
+      .header_top .header_logoAndBurger .menu_burger {
+        display: inline-flex; }
+    .header_top .header_ctas {
+      width: 100%;
+      justify-content: space-between; }
+    .header_top .header_contactIcon {
+      display: inline-flex; }
+    .header_top .header_contactUs {
+      display: none;
+      cursor: pointer; }
+  .header_nav {
+    display: none;
+    flex-direction: column;
+    height: 95%;
+    position: relative;
+    top: 0;
+    padding: 5% 0;
+    background-color: var(--buttonPrimary); }
+    .header_nav .header_link {
+      margin-top: 20rem; }
+  .headerHero_container .hero_content .hero_title {
+    font-size: 1.4rem; }
+  .headerHero_container .hero_content .hero_subtitle {
+    font-size: 2.4rem;
+    width: 80%; }
+  .headerHero_container .hero_content img {
+    margin-top: 1rem; }
+  .featured_article {
+    margin-top: 2rem !important; }
+    .featured_article .featured_image {
+      padding: 0 !important; }
+    .featured_article .featured_text .featured_welcome,
+    .featured_article .featured_text .featured_articleTitle,
+    .featured_article .featured_text .featured_blurb,
+    .featured_article .featured_text .featured_author {
+      margin: 1rem 1.8rem !important; }
+    .featured_article .featured_text .featured_welcome {
+      margin-top: 5rem !important;
+      margin-bottom: 0.5rem !important; }
+    .featured_article .featured_text .primaryButton {
+      margin: 2rem auto;
+      margin-bottom: 5rem; }
+  .carouselle_arrows-mobile {
+    display: flex; }
+  .carouselle_arrows {
+    display: none !important; } }
