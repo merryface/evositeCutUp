@@ -4983,7 +4983,8 @@ readers do not read off random characters that represent icons */
       font-size: 1.6rem;
       width: 100%;
       color: var(--articleTitle);
-      font-weight: 700; }
+      font-weight: 600;
+      font-family: "Merriweather"; }
   .articleCard_container .articleCard_readMore {
     text-transform: uppercase;
     color: var(--buttonPrimary);
