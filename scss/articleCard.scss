@@ -1,6 +1,9 @@
 .articleCard_container {
+    position: relative;
     max-width: 55.7rem;
     max-height: 38rem;
+
+    margin-bottom: 5rem;
     
     .articleCard_image {
         width: 100%;
@@ -29,11 +32,12 @@
                 margin-right: 1rem;
                 margin-bottom: 1rem;
             }
+        }
 
-            .purpleRose {
-                width: 100%;
-                display: block;
-            }
+        .purpleRose {
+            width: 100%;
+            display: block;
+            border: red;
         }
     }
 
@@ -43,6 +47,8 @@
         width: 100%;
         margin: 0;
         background-color: var(--white);
+
+        z-index: 2;
 
         .articleCard_date {
             color: var(--articleDate);
@@ -66,23 +72,25 @@
         color: var(--buttonPrimary);
         font-size: 1.2rem;
         font-weight: 600;
+        text-decoration: none;
 
         position: relative;
-        bottom: 2rem;
+        bottom: 4rem;
         left: 3rem;
 
         display: none;
-
-        margin: 0;
     }
 
+    // &:hover {
+    //     display: block;
+    //     box-sizing: border-box;
+    // }
 }
 
 .articleCard_container:hover {
 
     .articleCard_readMore {
-        display: block;
-        box-sizing: border-box;
-        text-decoration: none;
+            display: block;
+            box-sizing: border-box;
     }
 }

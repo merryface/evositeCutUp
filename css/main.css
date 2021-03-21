@@ -4891,6 +4891,12 @@ readers do not read off random characters that represent icons */
   opacity: 0.3;
   cursor: pointer; }
 
+.carouselle_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
 .featured_article {
   margin: 3rem auto;
   width: 100%;
@@ -4930,8 +4936,10 @@ readers do not read off random characters that represent icons */
           font-weight: bold; }
 
 .articleCard_container {
+  position: relative;
   max-width: 55.7rem;
-  max-height: 38rem; }
+  max-height: 38rem;
+  margin-bottom: 5rem; }
   .articleCard_container .articleCard_image {
     width: 100%;
     max-height: 24.9rem;
@@ -4952,15 +4960,17 @@ readers do not read off random characters that represent icons */
       .articleCard_container .articleCard_image .articleCard_category .thumbtack {
         margin-right: 1rem;
         margin-bottom: 1rem; }
-      .articleCard_container .articleCard_image .articleCard_category .purpleRose {
-        width: 100%;
-        display: block; }
+    .articleCard_container .articleCard_image .purpleRose {
+      width: 100%;
+      display: block;
+      border: red; }
   .articleCard_container .articleCard_textContent {
     box-sizing: border-box;
     padding: 1rem 3rem 5rem 3rem;
     width: 100%;
     margin: 0;
-    background-color: var(--white); }
+    background-color: var(--white);
+    z-index: 2; }
     .articleCard_container .articleCard_textContent .articleCard_date {
       color: var(--articleDate);
       text-transform: uppercase;
@@ -4976,16 +4986,15 @@ readers do not read off random characters that represent icons */
     color: var(--buttonPrimary);
     font-size: 1.2rem;
     font-weight: 600;
+    text-decoration: none;
     position: relative;
-    bottom: 2rem;
+    bottom: 4rem;
     left: 3rem;
-    display: none;
-    margin: 0; }
+    display: none; }
 
 .articleCard_container:hover .articleCard_readMore {
   display: block;
-  box-sizing: border-box;
-  text-decoration: none; }
+  box-sizing: border-box; }
 
 .latestNews_container {
   background-color: var(--buttonPrimary);
@@ -5019,8 +5028,3 @@ readers do not read off random characters that represent icons */
     display: flex;
     align-items: center;
     justify-content: center; }
-  .latestNews_container .carouselle_container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; }

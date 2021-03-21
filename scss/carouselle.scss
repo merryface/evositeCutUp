@@ -2,20 +2,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+        
     background: var(--white);
     color: var(--buttonPrimary);
     border-radius: 50%;
     height: 4.6rem;
     width: 4.6rem;
-
+        
     i {
         text-align: center;
         font-size: 1.7rem;
     }
 }
-
+    
 .carouselle_arrowContainer:hover {
     opacity: 0.3;
     cursor: pointer;
+}
+
+
+.carouselle_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
