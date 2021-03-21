@@ -8,11 +8,12 @@
 
         <link rel="stylesheet" href="./css/main.min.css">
 
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
         <script defer src="./js/dist/all.min.js"></script>
 
-        <!-- Bootstrap -->
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     </head>
 
     <body>
@@ -62,14 +63,14 @@
                 <div class="hero_content">
                     <h2 class="hero_title">evosite example website</h2>
                     <p class="hero_subtitle">Donec congue metus quis est</p>
-                    <a href="#main" class="hero_scroll">
+                    <a href="#welcome" class="hero_scroll">
                         <img src="./assets/ScrollDown.png" alt="down arrow">
                     </a>
                 </div>
             </div>
         </section>
         
-        <main id="main" class="featured_article">
+        <section id="welcome" class="featured_article">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 featured_image">
@@ -85,7 +86,88 @@
                     </div>
                 </div>
             </div>
-        </main>
+        </section>
+
+        <section class="latestNews_container">
+            <div class="latestNews_top">
+                <h2 class="latestNews_title">Latest News</h2>
+
+                <div class="carouselle_arrows">
+                    <div id="carouselle_prev" class="carouselle_arrowContainer">
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
+
+                    <div id="carouselle_next" class="carouselle_arrowContainer">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="carouselle_container" class="carouselle_container">
+                <section class="articleCard_container">
+                    <div class="articleCard_image">
+                        <img class="purpleRose" src="./assets/purpleRose.jpg" alt="purple rose">
+                        <div class="articleCard_category">
+                            <img class="thumbtack" src="./assets/thumtack.svg" alt="thumbtack icon">
+                            <p>featured news / category</p>
+                        </div>
+                    </div>
+
+                    <div class="articleCard_textContent">
+                        <time date="2020-03" class="articleCard_date"> march 20th 20xx</time>
+                        <h3 class="articleCard_title">This is an example of a really long heading that needs to span over multiple lines.1</h3>
+                    </div>
+                    <a class="articleCard_readMore" href="/">read article</a>
+                </section>
+
+                <section class="articleCard_container">
+                    <div class="articleCard_image">
+                        <img class="purpleRose" src="./assets/purpleRose.jpg" alt="purple rose">
+                        <div class="articleCard_category">
+                            <img class="thumbtack" src="./assets/thumtack.svg" alt="thumbtack icon">
+                            <p>featured news / category</p>
+                        </div>
+                    </div>
+
+                    <div class="articleCard_textContent">
+                        <time date="2020-03" class="articleCard_date"> march 20th 20xx</time>
+                        <h3 class="articleCard_title">This is an example of a really long heading that needs to span over multiple lines.2</h3>
+                    </div>
+                    <a class="articleCard_readMore" href="/">read article</a>
+                </section>
+
+                <section class="articleCard_container">
+                    <div class="articleCard_image">
+                        <img class="purpleRose" src="./assets/purpleRose.jpg" alt="purple rose">
+                        <div class="articleCard_category">
+                            <img class="thumbtack" src="./assets/thumtack.svg" alt="thumbtack icon">
+                            <p>featured news / category</p>
+                        </div>
+                    </div>
+
+                    <div  class="articleCard_textContent">
+                        <time date="2020-03" class="articleCard_date"> march 20th 20xx</time>
+                        <h3 class="articleCard_title">This is an example of a really long heading that needs to span over multiple lines3.</h3>
+                    </div>
+                    <a class="articleCard_readMore" href="/">read article</a>
+                </section>
+            </div>
+
+            <div class="carouselle_arrows-mobile">
+                <div id="carouselle_prev-mobile" class="carouselle_arrowContainer">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+
+                <div id="carouselle_next-mobile" class="carouselle_arrowContainer">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+
+            <a class="secondaryButton" href="/">view all news</a>
+        </section>
+
     </body>
+
+
 
 </html>

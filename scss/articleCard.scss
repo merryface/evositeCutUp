@@ -1,0 +1,97 @@
+.articleCard_container {
+    position: relative;
+    max-width: 55.7rem;
+    max-height: 37rem;
+
+    margin: 0 2rem;
+    
+    .articleCard_image {
+        width: 100%;
+        max-height: 23.9rem;
+        box-sizing: border-box;
+        display: block;
+
+        .articleCard_category {
+            position: relative;
+            bottom: 4rem;
+            margin-left: 3rem;
+            display: flex;
+            align-items: center;
+            width: auto;
+            
+            text-transform: uppercase;
+            font-size: 1.4rem;
+            color: var(--white);
+
+            p {
+                font-weight: 600;
+            }
+
+            .thumbtack {
+                margin-right: 1rem;
+                margin-bottom: 1rem;
+            }
+        }
+
+        .purpleRose {
+            width: 100%;
+            display: block;
+            border: red;
+        }
+    }
+
+    .articleCard_textContent {
+        box-sizing: border-box;
+        padding: 1rem 3rem 5rem 3rem;
+        width: 100%;
+        margin: 0;
+        background-color: var(--white);
+
+        .articleCard_date {
+            color: var(--articleDate);
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            
+        }
+
+        .articleCard_title {
+            margin-top: 1rem;
+            font-size: 1.6rem;
+            width: 100%;
+            color: var(--articleTitle);
+            font-weight: 600;
+            font-family: "Merriweather";
+        }
+
+    }
+
+    .articleCard_readMore {
+        text-transform: uppercase;
+        color: var(--buttonPrimary);
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-decoration: none;
+
+        position: relative;
+        bottom: 4rem;
+        left: 3rem;
+
+        display: none;
+        width: 20rem;
+        max-width: 20rem;
+        margin: 0;
+    }
+
+    // &:hover {
+    //     display: block;
+    //     box-sizing: border-box;
+    // }
+}
+
+.articleCard_container:hover {
+
+    .articleCard_readMore {
+            display: block;
+            box-sizing: border-box;
+    }
+}

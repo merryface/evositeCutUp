@@ -98,6 +98,3 @@
     carouselle_prevMobile.addEventListener("click", prevMobile);
 
 })(document);
-((d) => {
-    
-})(document)
