@@ -185,6 +185,7 @@ footer {
   flex-direction: column; }
   footer .footer_container {
     margin: auto;
+    width: 80%;
     max-width: 1200px; }
     footer .footer_container .footer_upper {
       padding: 5rem 0;
