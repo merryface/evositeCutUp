@@ -4922,8 +4922,7 @@ readers do not read off random characters that represent icons */
     padding: 1rem 3rem 5rem 3rem;
     width: 100%;
     margin: 0;
-    background-color: var(--white);
-    z-index: 2; }
+    background-color: var(--white); }
     .articleCard_container .articleCard_textContent .articleCard_date {
       color: var(--articleDate);
       text-transform: uppercase;
@@ -4996,7 +4995,18 @@ readers do not read off random characters that represent icons */
   .carouselle_arrows {
     display: none !important; }
   .carouselle_container .articleCard_container:nth-child(2) {
-    display: none; } }
+    display: none; }
+  .articleCard_image {
+    width: 100%;
+    max-height: 26rem; }
+  .articleCard_textContent {
+    padding-top: 2rem !important; }
+  .articleCard_container {
+    position: relative !important;
+    max-height: 40rem; }
+  .purpleRose {
+    object-fit: cover !important;
+    height: 25rem; } }
 
 @media screen and (max-width: 800px) {
   .header_top {
