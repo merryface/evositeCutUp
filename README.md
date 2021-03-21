@@ -61,7 +61,7 @@ Preparation work prior to development of the project. This is not documentation 
 - Hero with text ✅
 - Right side ✅
 - Latest News
-- Article Card
+- Article Card ✅
 - Footer upper third
   - Logo
 - Footer middle third
@@ -77,7 +77,7 @@ Preparation work prior to development of the project. This is not documentation 
 - Header ✅
 - Hero ✅
 - Featured Article ✅
-- Latest News
+- Latest News ✅
 - Footer
 ---
 ### Useful For copy-pasting

@@ -1,30 +1,84 @@
-.footer_nav {
+footer {
+    background-color: var(--footerGreen);
+    display: flex;
+    flex-direction: column;
 
-    .footer_navItem {
-        display: flex;
-        flex-direction: row;
 
-        text-decoration: none;
-        color: var(--white);
-    }
+    .footer_container {
+        margin: auto;
+        width: 80%;
+        max-width: 1200px;
 
-    .footer_navItem:hover {
-        opacity: 0.3;
-    }
+        
+        .footer_upper {
+            padding: 5rem 0;
+            border-bottom: solid var(--footerLine) 1px;
 
-    .fas {
-        padding-right: 0.5rem;
-        color: var(--Secondary);
-    }
+            .footer_logo {
+                height: 4.5rem;
+            }
+        }
+        
+        .footer_middle {
+            
+            .middle_container {
+                font-size: 1.5rem;
+                color: var(--white);
+                
+                .footer_middle-directions {
+                    .fas {
+                        margin-right: 1rem;
+                    }
+                }
+                
+                .footer_middle-contact {
+                    a {
+                        text-decoration: none;
+                        color: var(--white);
+                    }
+                }
+            }
+            
+        }
+        
+        .footer_lower {
+            color: var(--white);
+            font-size: 1.2rem;
+        }
+        
+        
+        
+        
+        .footer_nav {
+            
+            .footer_navItem {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                font-size: 1.5rem;
+                
+                text-decoration: none;
+                color: var(--white);
+            }
+            
+            .footer_navItem:hover {
+                opacity: 0.3;
+            }
+            
+            .fas {
+                padding-right: 0.5rem;
+                color: var(--Secondary);
+            }
+        }
+        
+        .footer_legal {
+            list-style: none;
+            
+            a li {
+                color: var(--white);
+                text-decoration: none;
+                font-size: 1.2rem;
+            }
+        }
+    }   
 }
-
-.footer_legal {
-    list-style: none;
-
-    a li {
-        color: var(--white);
-        text-decoration: none;
-        font-size: 1.2rem;
-    }
-}
-

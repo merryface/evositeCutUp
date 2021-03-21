@@ -60,11 +60,6 @@
     // 
     // 
     // 
-    // let hideMobile = () => {
-    //     for (let i = 1; i < carouselle_container.children.length; i += 1) {
-    //         carouselle_container.children[i].style.display = "none";
-    //     }
-    // };
     let current = 0;
 
     const nextMobile = () => {
