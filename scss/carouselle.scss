@@ -1,3 +1,13 @@
+.carouselle_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    margin-top: 3rem;
+}
+
+
 .carouselle_arrowContainer {
     display: flex;
     justify-content: center;
@@ -20,10 +30,3 @@
     cursor: pointer;
 }
 
-
-.carouselle_container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
