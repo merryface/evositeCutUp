@@ -4881,7 +4881,8 @@ readers do not read off random characters that represent icons */
   justify-content: space-between;
   align-items: center;
   max-width: 1150px;
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  overflow-x: auto; }
 
 .carouselle_arrowContainer {
   display: flex;
