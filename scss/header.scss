@@ -15,6 +15,12 @@ header {
     color: var(--white);
 }
 
+.header_button:hover, .header_contactUs:hover {
+    text-decoration: none;
+    background-color: var(--secondary);
+    color: var(--white);
+}
+
 .menu_search {
     padding: 0;
 }
@@ -81,6 +87,7 @@ header {
 
     .header_link-active, .header_link:hover {
         color: rgba(0, 0, 0, 0.47);
+        text-decoration: none;
     }
 
 }
