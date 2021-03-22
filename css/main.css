@@ -5059,8 +5059,6 @@ readers do not read off random characters that represent icons */
   .purpleRose {
     object-fit: cover !important;
     height: 25rem; }
-  .middle_container {
-    display: block; }
   .footer_middle-quickLinks {
     column-count: 2 !important; } }
 
@@ -5114,4 +5112,6 @@ readers do not read off random characters that represent icons */
       margin-bottom: 0.5rem !important; }
     .featured_article .featured_text .primaryButton {
       margin: 2rem auto;
-      margin-bottom: 5rem; } }
+      margin-bottom: 5rem; }
+  footer .footer_container .footer_middle .middle_container {
+    flex-direction: column; } }
