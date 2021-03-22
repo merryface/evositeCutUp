@@ -62,7 +62,7 @@ Preparation work prior to development of the project. This is not documentation 
 - Right side ✅
 - Latest News
 - Article Card ✅
-- Footer upper third
+- Footer upper third✅
   - Logo
 - Footer middle third
   - Address
@@ -80,26 +80,8 @@ Preparation work prior to development of the project. This is not documentation 
 - Latest News ✅
 - Footer
 ---
-### Useful For copy-pasting
-Colours:
-- White: FFFFFF
-- PrimaryDarker: #0C0228
-- ButtonPrimary: #2F5C7C -> hover 0.3 opacity
-- Secondary: #B7BDC1
-- PurplePrimary: #283163
-- ArticleDate: #ACA7B2
-
-Typography:
-- Merriweather
-  - Weights: 300, 700
-- Montserrat:
-  - Weights: 300, 400, 600, 700
 
 
 ### TODO
 - Article card on hover div rises
-
-
-
-
-carouselle weird behaviour caused by article card styling. sort that out first
+- animate carousel slide

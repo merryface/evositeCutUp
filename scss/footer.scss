@@ -20,23 +20,39 @@ footer {
         }
         
         .footer_middle {
+            // display: flex;
+
             
             .middle_container {
                 font-size: 1.5rem;
                 color: var(--white);
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
                 
                 .footer_middle-directions {
-                    .fas {
-                        margin-right: 1rem;
+                    .address_siteName {
+                        font-weight: 700;
                     }
                 }
                 
                 .footer_middle-contact {
+                    display: flex;
+                    flex-direction: column;
+                    
+
                     a {
                         text-decoration: none;
                         color: var(--white);
+                        margin-bottom: 1rem;
+
+                        i {
+                            margin-right: 1rem;
+                        }
                     }
                 }
+
             }
             
         }
@@ -50,12 +66,18 @@ footer {
         
         
         .footer_nav {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 33%;
             
             .footer_navItem {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 font-size: 1.5rem;
+                flex: 1 0 calc(25% - 10px);
+                box-sizing: border-box;
                 
                 text-decoration: none;
                 color: var(--white);

@@ -194,27 +194,43 @@ footer {
         height: 4.5rem; }
     footer .footer_container .footer_middle .middle_container {
       font-size: 1.5rem;
-      color: var(--white); }
-      footer .footer_container .footer_middle .middle_container .footer_middle-directions .fas {
-        margin-right: 1rem; }
-      footer .footer_container .footer_middle .middle_container .footer_middle-contact a {
-        text-decoration: none;
-        color: var(--white); }
+      color: var(--white);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly; }
+      footer .footer_container .footer_middle .middle_container .footer_middle-directions .address_siteName {
+        font-weight: 700; }
+      footer .footer_container .footer_middle .middle_container .footer_middle-contact {
+        display: flex;
+        flex-direction: column; }
+        footer .footer_container .footer_middle .middle_container .footer_middle-contact a {
+          text-decoration: none;
+          color: var(--white);
+          margin-bottom: 1rem; }
+          footer .footer_container .footer_middle .middle_container .footer_middle-contact a i {
+            margin-right: 1rem; }
     footer .footer_container .footer_lower {
       color: var(--white);
       font-size: 1.2rem; }
-    footer .footer_container .footer_nav .footer_navItem {
+    footer .footer_container .footer_nav {
       display: flex;
-      flex-direction: row;
-      align-items: center;
-      font-size: 1.5rem;
-      text-decoration: none;
-      color: var(--white); }
-    footer .footer_container .footer_nav .footer_navItem:hover {
-      opacity: 0.3; }
-    footer .footer_container .footer_nav .fas {
-      padding-right: 0.5rem;
-      color: var(--Secondary); }
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 33%; }
+      footer .footer_container .footer_nav .footer_navItem {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 1.5rem;
+        flex: 1 0 calc(25% - 10px);
+        box-sizing: border-box;
+        text-decoration: none;
+        color: var(--white); }
+      footer .footer_container .footer_nav .footer_navItem:hover {
+        opacity: 0.3; }
+      footer .footer_container .footer_nav .fas {
+        padding-right: 0.5rem;
+        color: var(--Secondary); }
     footer .footer_container .footer_legal {
       list-style: none; }
       footer .footer_container .footer_legal a li {
