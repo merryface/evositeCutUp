@@ -198,47 +198,59 @@ footer {
       border-bottom: solid var(--footerLine) 1px; }
       footer .footer_container .footer_upper .footer_logo {
         height: 4.5rem; }
-    footer .footer_container .footer_middle .middle_container {
-      font-size: 1.5rem;
-      color: var(--white); }
-      footer .footer_container .footer_middle .middle_container .footer_middle-directions .address_siteName {
-        font-weight: 700; }
-      footer .footer_container .footer_middle .middle_container .footer_middle-contact {
+    footer .footer_container .footer_middle {
+      padding: 5rem 0;
+      border-bottom: solid var(--footerLine) 1px; }
+      footer .footer_container .footer_middle .middle_container {
+        font-size: 1.5rem;
+        color: var(--white);
         display: flex;
-        flex-direction: column; }
-        footer .footer_container .footer_middle .middle_container .footer_middle-contact a {
-          text-decoration: none;
-          color: var(--white);
-          margin-bottom: 1rem; }
-          footer .footer_container .footer_middle .middle_container .footer_middle-contact a i {
-            margin-right: 1rem; }
-      footer .footer_container .footer_middle .middle_container .footer_middle-quickLinks {
-        column-count: 3;
-        column-gap: 1rem; }
-        footer .footer_container .footer_middle .middle_container .footer_middle-quickLinks .footer_nav .footer_navItem {
+        flex-direction: row;
+        justify-content: space-between; }
+        footer .footer_container .footer_middle .middle_container .footer_middle-directions .address_siteName {
+          font-weight: 700; }
+        footer .footer_container .footer_middle .middle_container .footer_middle-contact {
           display: flex;
-          flex-direction: row;
-          align-items: center;
-          box-sizing: border-box;
-          margin-bottom: 2rem;
-          font-size: 1.5rem;
-          text-decoration: none;
-          color: var(--white); }
-        footer .footer_container .footer_middle .middle_container .footer_middle-quickLinks .footer_nav .footer_navItem:hover {
-          opacity: 0.3; }
-        footer .footer_container .footer_middle .middle_container .footer_middle-quickLinks .footer_nav .fas {
-          padding-right: 0.5rem;
-          color: var(--Secondary); }
+          flex-direction: column; }
+          footer .footer_container .footer_middle .middle_container .footer_middle-contact a {
+            text-decoration: none;
+            color: var(--white);
+            margin-bottom: 1rem; }
+            footer .footer_container .footer_middle .middle_container .footer_middle-contact a i {
+              margin-right: 1rem; }
+        footer .footer_container .footer_middle .middle_container .footer_middle-quickLinks {
+          column-count: 3;
+          width: 50%; }
+          footer .footer_container .footer_middle .middle_container .footer_middle-quickLinks .footer_nav .footer_navItem {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            box-sizing: border-box;
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: var(--white); }
+          footer .footer_container .footer_middle .middle_container .footer_middle-quickLinks .footer_nav .footer_navItem:hover {
+            opacity: 0.3; }
+          footer .footer_container .footer_middle .middle_container .footer_middle-quickLinks .footer_nav .fas {
+            padding-right: 0.5rem;
+            color: var(--Secondary); }
     footer .footer_container .footer_lower {
       color: var(--white);
-      font-size: 1.2rem; }
-
-.footer_legal {
-  list-style: none; }
-  .footer_legal a li {
-    color: var(--white);
-    text-decoration: none;
-    font-size: 1.2rem; }
+      font-size: 1.2rem;
+      padding: 3rem 0; }
+      footer .footer_container .footer_lower .footer_lower-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem; }
+      footer .footer_container .footer_lower .footer_legal {
+        list-style: none;
+        display: flex; }
+        footer .footer_container .footer_lower .footer_legal a li {
+          color: var(--white);
+          text-decoration: none;
+          font-size: 1.2rem;
+          margin-right: 2rem; }
 
 /*!
  * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com
@@ -5046,7 +5058,11 @@ readers do not read off random characters that represent icons */
     max-height: 40rem; }
   .purpleRose {
     object-fit: cover !important;
-    height: 25rem; } }
+    height: 25rem; }
+  .middle_container {
+    display: block; }
+  .footer_middle-quickLinks {
+    column-count: 2 !important; } }
 
 @media screen and (max-width: 800px) {
   .header_top {
