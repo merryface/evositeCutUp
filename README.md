@@ -64,11 +64,11 @@ Preparation work prior to development of the project. This is not documentation 
 - Article Card ✅
 - Footer upper third✅
   - Logo
-- Footer middle third
+- Footer middle third 
   - Address
   - Contact details
   - Nav menu
-- Footer lower third
+- Footer lower third 
   - Copyright and company registration
   - Legal links
   - Design attribution
@@ -82,6 +82,9 @@ Preparation work prior to development of the project. This is not documentation 
 ---
 
 
-### TODO
+### Refactor
 - Article card on hover div rises
 - animate carousel slide
+- Reduce nesting
+- Min width instead of max width
+- More scss variables

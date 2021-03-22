@@ -44,7 +44,7 @@
 
     // FOOTER ----
     .middle_container {
-        display: block;
+        
 
     }
     .footer_middle-quickLinks {
@@ -162,7 +162,9 @@
     }
 
     // ---------------
-
+    footer .footer_container .footer_middle .middle_container {
+        flex-direction: column;
+    }
 
 }
 // ---------------------
