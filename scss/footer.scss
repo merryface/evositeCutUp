@@ -8,8 +8,11 @@ footer {
         margin: auto;
         width: 80%;
         max-width: 1200px;
+        // ------------------------------
+        // ------------------------------
 
-        
+
+        // UPPER ------------------------
         .footer_upper {
             padding: 5rem 0;
             border-bottom: solid var(--footerLine) 1px;
@@ -18,25 +21,27 @@ footer {
                 height: 4.5rem;
             }
         }
-        
-        .footer_middle {
-            // display: flex;
+        // ------------------------------
+        // ------------------------------
 
-            
+
+        // MIDDLE -----------------------
+        .footer_middle {
+
+            // container
             .middle_container {
                 font-size: 1.5rem;
                 color: var(--white);
 
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
-                
+                //  ------- directions --------
                 .footer_middle-directions {
+
                     .address_siteName {
                         font-weight: 700;
                     }
                 }
                 
+                //  ------- contact --------
                 .footer_middle-contact {
                     display: flex;
                     flex-direction: column;
@@ -53,10 +58,48 @@ footer {
                     }
                 }
 
+                //  ------- quicklinks --------
+                .footer_middle-quickLinks {
+                    column-count: 3;
+
+                    .footer_nav {
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        width: 33%;
+                        
+                        .footer_navItem {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            box-sizing: border-box;
+                            
+                            margin-bottom: 2rem;
+                            
+                            font-size: 1.5rem;
+                            text-decoration: none;
+                            color: var(--white);                
+                        }
+                        
+                        .footer_navItem:hover {
+                            opacity: 0.3;
+                        }
+                        
+                        .fas {
+                            padding-right: 0.5rem;
+                            color: var(--Secondary);
+                        }
+                    }
+                }
+
             }
             
         }
+        // ------------------------------
+        // ------------------------------
+
         
+        // LOWER -----------------------
         .footer_lower {
             color: var(--white);
             font-size: 1.2rem;
@@ -64,43 +107,19 @@ footer {
         
         
         
-        
-        .footer_nav {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            width: 33%;
-            
-            .footer_navItem {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                font-size: 1.5rem;
-                flex: 1 0 calc(25% - 10px);
-                box-sizing: border-box;
-                
-                text-decoration: none;
-                color: var(--white);
-            }
-            
-            .footer_navItem:hover {
-                opacity: 0.3;
-            }
-            
-            .fas {
-                padding-right: 0.5rem;
-                color: var(--Secondary);
-            }
-        }
-        
-        .footer_legal {
-            list-style: none;
-            
-            a li {
-                color: var(--white);
-                text-decoration: none;
-                font-size: 1.2rem;
-            }
-        }
+
     }   
+}
+
+// atoms -----------
+
+        
+.footer_legal {
+    list-style: none;
+            
+    a li {
+        color: var(--white);
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
 }
